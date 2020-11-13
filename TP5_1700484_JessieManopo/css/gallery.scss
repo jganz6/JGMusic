@@ -1,0 +1,68 @@
+.container-bdy{
+
+    .container-content{
+        overflow: hidden;
+        transition: all ease-in-out 500ms;
+        .content-2nd-black{
+            background-color:#020524e0;
+            padding-left: 2em;
+            padding-right: 2em;
+            color: rgb(22, 175, 142);
+            h1{
+                padding: 1em;
+            }      
+        }
+        .content-flex-album{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            transition: all ease-in-out 500ms;
+            background-color: #03084bdc;
+            .album{
+                box-sizing: border-box;
+                margin: 1em;
+                width: 26%;
+                height: 50%;
+                /*background-color: #581e88a2;*/
+                background-color: #1e2257dc;
+                border-radius: 20px;
+                padding-top: 2px;
+                text-align: center;
+                background-image: url(../src/album01.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% auto;
+                box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.829);
+                transition: all ease-in-out 500ms;
+                .album-desc{
+                    color: #6cdefa;
+                    font-size: 12pt;
+                    padding: 15px;
+                    margin-top: 100%;
+                    font-weight: bold;
+                    transition: all ease-in-out 500ms;
+                    i{
+                        margin-top: 10px;
+                        display: block;
+                        font-size: 24pt;
+                        transition: all ease-in-out 500ms;
+                    }
+                }
+            }
+            .album:hover{
+                box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.637);
+                width: 33%;
+                height: 60%;
+                cursor: pointer;
+                transition: all ease-in-out 500ms;
+                .album-desc{
+                    font-size: 20pt;
+                    transition: all ease-in-out 500ms;
+                    i{
+                        font-size: 32pt;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.container-bdy .container-content {
+  overflow: hidden;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.container-bdy .container-content .content-2nd-black {
+  background-color: #020524e0;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #16af8e;
+}
+
+.container-bdy .container-content .content-2nd-black h1 {
+  padding: 1em;
+}
+
+.container-bdy .container-content .content-flex-album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+  background-color: #03084bdc;
+}
+
+.container-bdy .container-content .content-flex-album .album {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1em;
+  width: 26%;
+  height: 50%;
+  /*background-color: #581e88a2;*/
+  background-color: #1e2257dc;
+  border-radius: 20px;
+  padding-top: 2px;
+  text-align: center;
+  background-image: url(../src/album01.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  -webkit-box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.829);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.829);
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.container-bdy .container-content .content-flex-album .album .album-desc {
+  color: #6cdefa;
+  font-size: 12pt;
+  padding: 15px;
+  margin-top: 100%;
+  font-weight: bold;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.container-bdy .container-content .content-flex-album .album .album-desc i {
+  margin-top: 10px;
+  display: block;
+  font-size: 24pt;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.container-bdy .container-content .content-flex-album .album:hover {
+  -webkit-box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.637);
+  box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.637);
+  width: 33%;
+  height: 60%;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.container-bdy .container-content .content-flex-album .album:hover .album-desc {
+  font-size: 20pt;
+  -webkit-transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms;
+}
+
+.container-bdy .container-content .content-flex-album .album:hover .album-desc i {
+  font-size: 32pt;
+}
+
+/*# sourceMappingURL=gallery.css.map */
